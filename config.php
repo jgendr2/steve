@@ -26,7 +26,7 @@
     //a1
     //facebook url should be index.php?store=a1
     $stores['a1']['type'] = 'navl';  //can be 'avl' or 'navl'
-    $stores['a1']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['a1']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['a1']['promo_code'] = '';
     $stores['a1']['referral_code'] = 'FBK16050';
     $stores['a1']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -35,7 +35,7 @@
     //allam
     //facebook url should be index.php?store=allam
     $stores['allam']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['allam']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['allam']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['allam']['promo_code'] = '';
     $stores['allam']['referral_code'] = 'FBK00660';
     $stores['allam']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -44,7 +44,7 @@
     //belt
     //facebook url should be index.php?store=belt
     $stores['belt']['type'] = 'navl';  //can be 'avl' or 'navl'
-    $stores['belt']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['belt']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['belt']['promo_code'] = '';
     $stores['belt']['referral_code'] = 'FBK11100';
     $stores['belt']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -53,7 +53,7 @@
     //ca
     //facebook url should be index.php?store=ca
     $stores['ca']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['ca']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['ca']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['ca']['promo_code'] = '';
     $stores['ca']['referral_code'] = 'FBK03758';
     $stores['ca']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -62,7 +62,7 @@
     //dehaven
     //facebook url should be index.php?store=dehaven
     $stores['dehaven']['type'] = 'navl';  //can be 'avl' or 'navl'
-    $stores['dehaven']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['dehaven']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['dehaven']['promo_code'] = '';
     $stores['dehaven']['referral_code'] = 'FBK14020';
     $stores['dehaven']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -71,7 +71,7 @@
     //excel
     //facebook url should be index.php?store=excel
     $stores['excel']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['excel']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['excel']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['excel']['promo_code'] = 'TEST';
     $stores['excel']['referral_code'] = 'FBK06100';
     $stores['excel']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -80,7 +80,7 @@
     //ferree
     //facebook url should be index.php?store=ferree
     $stores['ferree']['type'] = 'navl';  //can be 'avl' or 'navl'
-    $stores['ferree']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['ferree']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['ferree']['promo_code'] = '';
     $stores['ferree']['referral_code'] = 'FBK11380';
     $stores['ferree']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -89,7 +89,7 @@
     //halllane
     //facebook url should be index.php?store=halllane
     $stores['halllane']['type'] = 'navl';  //can be 'avl' or 'navl'
-    $stores['halllane']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['halllane']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['halllane']['promo_code'] = '';
     $stores['halllane']['referral_code'] = 'FBK18650';
     $stores['halllane']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -97,8 +97,8 @@
 
     //na
     //facebook url should be index.php?store=na
-    $stores['na']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['na']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['na']['type'] = 'navl';  //can be 'avl' or 'navl'
+    $stores['na']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['na']['promo_code'] = '';
     $stores['na']['referral_code'] = 'FCBKNVL';
     $stores['na']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -107,7 +107,7 @@
     //allied
     //facebook url should be index.php?store=allied
     $stores['allied']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['allied']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['allied']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['allied']['promo_code'] = '';
     $stores['allied']['referral_code'] = 'FCBKAVL';
     $stores['allied']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -116,7 +116,7 @@
     //prestige
     //facebook url should be index.php?store=prestige
     $stores['prestige']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['prestige']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['prestige']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['prestige']['promo_code'] = '';
     $stores['prestige']['referral_code'] = 'FBK18280';
     $stores['prestige']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -125,7 +125,7 @@
     //qmm
     //facebook url should be index.php?store=qmm
     $stores['qmm']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['qmm']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['qmm']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['qmm']['referral_code'] = 'FBK29750';
     $stores['qmm']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
     $stores['qmm']['promotion_image'] = '';  //can be '' or 'insert the image file name here'
@@ -133,7 +133,7 @@
     //reebie
     //facebook url should be index.php?store=reebie
     $stores['reebie']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['reebie']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['reebie']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['reebie']['promo_code'] = '';
     $stores['reebie']['referral_code'] = 'FBK20070';
     $stores['reebie']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
@@ -142,8 +142,35 @@
     //whalen
     //facebook url should be index.php?store=whalen
     $stores['whalen']['type'] = 'avl';  //can be 'avl' or 'navl'
-    $stores['whalen']['has_promotion'] = TRUE;  //can be TRUE or FALSE
+    $stores['whalen']['has_promotion'] = FALSE;  //can be TRUE or FALSE
     $stores['whalen']['promo_code'] = '';
     $stores['whalen']['referral_code'] = 'FBK00070';
     $stores['whalen']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
     $stores['whalen']['promotion_image'] = '';  //can be '' or 'insert the image file name here'
+
+    //coleman
+    //facebook url should be index.php?store=coleman
+    $stores['coleman']['type'] = 'avl';  //can be 'avl' or 'navl'
+    $stores['coleman']['has_promotion'] = FALSE;  //can be TRUE or FALSE
+    $stores['coleman']['promo_code'] = '';
+    $stores['coleman']['referral_code'] = 'FBK03758';
+    $stores['coleman']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
+    $stores['coleman']['promotion_image'] = '';  //can be '' or 'insert the image file name here'
+
+    //palmer
+    //facebook url should be index.php?store=palmer
+    $stores['palmer']['type'] = 'navl';  //can be 'avl' or 'navl'
+    $stores['palmer']['has_promotion'] = FALSE;  //can be TRUE or FALSE
+    $stores['palmer']['promo_code'] = '';
+    $stores['palmer']['referral_code'] = 'FBK13890';
+    $stores['palmer']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
+    $stores['palmer']['promotion_image'] = '';  //can be '' or 'insert the image file name here'
+
+    //george
+    //facebook url should be index.php?store=george
+    $stores['george']['type'] = 'navl';  //can be 'avl' or 'navl'
+    $stores['george']['has_promotion'] = FALSE;  //can be TRUE or FALSE
+    $stores['george']['promo_code'] = '';
+    $stores['george']['referral_code'] = 'FBK29590';
+    $stores['george']['promotion_text'] = '';  //leave empty for default or 'insert the image file name here'
+    $stores['george']['promotion_image'] = '';  //can be '' or 'insert the image file name here'

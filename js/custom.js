@@ -6,6 +6,9 @@ $(document).ready(function() {
     $("#lead_form").validate({
         rules: {
             name: "required",
+            pickup_address: "required",
+            pickup_city: "required",
+            pickup_state: "required",
             pickup_zip: "required",
             delivery_zip: "required",
             email: {
@@ -18,6 +21,9 @@ $(document).ready(function() {
         },
         message: {
             name: "",
+            pickup_address: "",
+            pickup_city: "",
+            pickup_state: "",
             pickup_zip: "",
             delivery_zip: "",
             email: "",

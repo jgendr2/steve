@@ -4,7 +4,7 @@ set_include_path('./ZendFramework/library');
 require_once 'Zend/Http/Client.php';
 
   // Submit XML
-  $url = "http://ballpark.imove.com/RAE/RequestAnEstimate.asmx/SendEstimateRequestXmlString";
+  $url = "http://ballpark.allied.com/RAE/RequestAnEstimate.asmx/SendEstimateRequestXmlString";
   $name = explode(' ', $_POST['name']);
   $first_name = $name[0];
   $last_name = str_replace($first_name . ' ', '', $_POST['name']);
@@ -37,7 +37,7 @@ require_once 'Zend/Http/Client.php';
   }
 
   $xml_string = <<<XML
-<EstimateRequest>{$_POST['promo_code']}
+<EstimateRequest>
  <ReferralCode>{$_POST['referral_code']}</ReferralCode>
   <PrimaryContact>
     <Email>{$_POST['email']}</Email>
@@ -45,17 +45,17 @@ require_once 'Zend/Http/Client.php';
     <LastName>{$last_name}</LastName>
     <PrimaryPhoneType>{$_POST['phone_type']}</PrimaryPhoneType>
     <PreferredContactTime>{$_POST['time_to_call']}</PreferredContactTime>
-    <HomePhone>({$phone})</HomePhone>
+    <HomePhone>{$phone}</HomePhone>
     <WorkPhone>{$_POST['work_phone']}</WorkPhone>
     <WorkPhoneExt>{$_POST['work_phone_ext']}</WorkPhoneExt>
     <CellPhone>{$_POST['cell_phone']}</CellPhone>
     <FaxPhone>{$_POST['fax']}</FaxPhone>
   </PrimaryContact>
   <PickupAddress>
-    <Address1>Ask The Customer</Address1>
-  <Address2>{$_POST['address_2']}</Address2>
-    <City>Ask The Customer</City>
-    <State>NA</State>
+    <Address1>{$_POST['pickup_address']}</Address1>
+    <Address2>{$_POST['address_2']}</Address2>
+    <City>{$_POST['pickup_city']}</City>
+    <State>{$_POST['pickup_state']}</State>
     <Zip>{$_POST['pickup_zip']}</Zip>
   </PickupAddress>
   <MoveDetails>
@@ -79,6 +79,7 @@ require_once 'Zend/Http/Client.php';
   <PromotionCode>{$promo_code}</PromotionCode>
 </EstimateRequest>
 XML;
+
 
   $client = new Zend_Http_Client($url);
   $client->setParameterPost('xmlRequest', $xml_string);
